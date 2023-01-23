@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="002" author="mate">
+
+
+
+        <insert tableName="departments">
+            <column name="id" value="1"/>
+            <column name="name" value="department1"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+        <insert tableName="departments">
+            <column name="id" value="2"/>
+            <column name="name" value="department2"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+        <insert tableName="departments">
+            <column name="id" value="3"/>
+            <column name="name" value="department3"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+
+
+        <insert tableName="employees">
+            <column name="id" value="1"/>
+            <column name="full_name" value="employee1"/>
+            <column name="email" value="employee1@asd.asd"/>
+            <column name="position" value="worker"/>
+            <column name="department_id" value="1"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+        <insert tableName="employees">
+            <column name="id" value="2"/>
+            <column name="full_name" value="employee2"/>
+            <column name="email" value="employee2@asd.asd"/>
+            <column name="position" value="worker"/>
+            <column name="department_id" value="1"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+
+        <insert tableName="employees">
+            <column name="id" value="3"/>
+            <column name="full_name" value="employee3"/>
+            <column name="email" value="employee3@asd.asd"/>
+            <column name="position" value="worker"/>
+            <column name="department_id" value="2"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+        <insert tableName="employees">
+            <column name="id" value="4"/>
+            <column name="full_name" value="employee4"/>
+            <column name="email" value="employee4@asd.asd"/>
+            <column name="position" value="worker"/>
+            <column name="department_id" value="2"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+
+
+        <insert tableName="employees">
+            <column name="id" value="5"/>
+            <column name="full_name" value="employee5"/>
+            <column name="email" value="employee5@asd.asd"/>
+            <column name="position" value="worker"/>
+            <column name="department_id" value="3"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+        <insert tableName="employees">
+            <column name="id" value="6"/>
+            <column name="full_name" value="employee6"/>
+            <column name="email" value="employee6@asd.asd"/>
+            <column name="position" value="worker"/>
+            <column name="department_id" value="3"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+
+
+        <insert tableName="employees">
+            <column name="id" value="7"/>
+            <column name="full_name" value="mr.manager"/>
+            <column name="email" value="manager@asd.asd"/>
+            <column name="position" value="manager"/>
+            <column name="department_id" value="null"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+        <insert tableName="employees">
+            <column name="id" value="8"/>
+            <column name="full_name" value="mr.manager2"/>
+            <column name="email" value="manager2@asd.asd"/>
+            <column name="position" value="manager"/>
+            <column name="created_at" value="2022-11-11"/>
+            <column name="created_by" value="4"/>
+            <column name="modified_at" value="2022-11-11"/>
+            <column name="modified_by" value="4"/>
+        </insert>
+
+
+
+        <insert tableName="users">
+            <column name="id" value="1"/>
+            <column name="username" value="admin"/>
+            <column name="password" value="8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918"/>
+            <column name="role" value="admin"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" value="2"/>
+            <column name="username" value="user"/>
+            <column name="password" value="04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb"/>
+            <column name="role" value="user"/>
+        </insert>
+
+
+
+    </changeSet>
+</databaseChangeLog>

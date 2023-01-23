@@ -1,0 +1,66 @@
+TIMELOG
+
+----------------------------Spring boot feladat----------------------------
+
+.
+├── Controller
+│   ├── DepartmentController.java                     15p
+│   ├── DepartmentEmployeeController.java             15p
+│   ├── EmployeeController.java                       15p
+│   └── UserController.java                           15p
+├── HrApplication.java
+├── Model
+│   ├── DTO
+│   │   ├── DepartmentDTO.java            	      15p
+│   │   ├── DepartmentEmployeesDTO.java   	      15p
+│   │   ├── EmployeeDTO.java              	      15p
+│   │   ├── EmployeeMinimalDTO.java                   15p
+│   │   ├── LoginDTO.java                	      15p
+│   │   └── UserDTO.java                  	      15p
+│   └── Entity
+│       ├── Department.java                           15p
+│       ├── Employee.java                             15p
+│       └── User.java                                 15p
+├── Repository
+│   ├── DepartmentRepository.java                     15p
+│   ├── EmployeeRepository.java                       15p
+│   └── UserRepository.java                           15p
+├── Security
+│   ├── JwtUtil.java                                  1ó
+│   ├── PasswordUtil.java                             30p
+│   ├── RequestFilter.java                            1óp
+│   └── SecurityConfig.java                           1óp
+└── Service
+    ├── DepartmentService.java                        30p
+    ├── EmployeeService.java                          30p
+    ├── UserDetailsImpl.java                          30p
+    └── UserService.java                              30p
+
+
+
+TESZT
+.
+└── hr
+    ├── DepartmentsHttpRequestTest.java               15p
+    ├── EmployeesHttpRequestTest.java                 15p
+    ├── HrApplicationTests.java                       15p
+    └── UsersHttpRequestTest.java                     15p
+
+
+
+----------------------------SQL feladat----------------------------
+
+Táblák létrehozása kapcsolatokkal:           	      30p
+Trigger létrehozása:                                  30p
+Update Script:                                        1ó
+
+
+
+
+
+
+
+DEBUG: 4ó
+Kutatómunka: 2ó
+TOTAL: ∼19ó
+
